@@ -29,5 +29,5 @@ Once paired with a target device, the ESP32 can execute commands to compromise t
 
 Convert the rev.py to rev.exe using pyinstaller: 
 ```bash
-pyinstaller --onefile --windowed rev_shell.py
+pyinstaller --onefile --windowed rev.py
 
