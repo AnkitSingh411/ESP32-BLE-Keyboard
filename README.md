@@ -24,3 +24,10 @@ Once paired with a target device, the ESP32 can execute commands to compromise t
 1. Clone this repository:
    ```bash
    git clone https://github.com/AnkitSingh411/ESP32-BLE-Keyboard.git
+
+## Reverse Shell
+
+Convert the rev.py to rev.exe using pyinstaller: 
+```bash
+pyinstaller --onefile --windowed rev_shell.py
+
